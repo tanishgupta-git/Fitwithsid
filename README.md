@@ -1,2 +1,2 @@
 # Fitwithsid
-Blogging web
+Fitness Blogging Website
