@@ -33,9 +33,6 @@ Confirm_Login();
           <button class="click-hide"><i class="fas fa-times fa-2x"></i></button><br>
        <p class="li-clone">Features</p> 
        <ul>  
-          <li>
-            <a href="MyProfile.php"><i class="fas fa-user"></i> My Profile</a>
-          </li>
             <li>
             <a href="Dashboard.php"><i class="fas fa-cog"></i> Dashboard</a>
           </li>
