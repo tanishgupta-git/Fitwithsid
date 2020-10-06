@@ -67,19 +67,19 @@ Confirm_Login();
             </div>
              <div class="edit-buttongroup">
              <div>
-             	<a href="AddNewPost.php"><i class="fas fa-edit"></i> Add New Post
+             	<a href="#"><i class="fas fa-edit"></i> Add New Post
              	</a>
              </div>
               <div>
-             	<a href="Categories.php"><i class="fas fa-folder-plus"></i> Add New Category
+             	<a href="#"><i class="fas fa-folder-plus"></i> Add New Category
              	</a>
              </div>
              <div>
-             	<a href="Admins.php"><i class="fas fa-user-plus"></i>  Add New Admin
+             	<a href="#"><i class="fas fa-user-plus"></i>  Add New Admin
              	</a>
              </div>
              <div>
-             	<a href="Comments.php"><i class="fas fa-check"></i> Approve Comments
+             	<a href="#"><i class="fas fa-check"></i> Approve Comments
              	</a>
              </div>
           </div>
