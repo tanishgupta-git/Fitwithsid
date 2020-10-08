@@ -66,7 +66,7 @@ Confirm_Login();
    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/basicadmindesign.css">
        <link rel="stylesheet" type="text/css" href="css/privateonlyadmin.css">
-	<title>Manage Categories</title>
+	<title>Add New Post</title>
 </head>
 <body>
    <!-- navbar for small screen only -->
