@@ -66,21 +66,21 @@ Confirm_Login();
               <p class="page-define"><i class="fas fa-cog"></i> Dashboard</p>
             </div>
              <div class="edit-buttongroup">
-             <div>
-             	<a href="#"><i class="fas fa-edit"></i> Add New Post
-             	</a>
+          <div>
+                <a href="AddNewPost.php"><i class="fas fa-edit"></i> Add New Post
+                </a>
              </div>
               <div>
-             	<a href="#"><i class="fas fa-folder-plus"></i> Add New Category
-             	</a>
+                <a href="Categories.php"><i class="fas fa-folder-plus"></i> Add New Category
+                </a>
              </div>
              <div>
-             	<a href="#"><i class="fas fa-user-plus"></i>  Add New Admin
-             	</a>
+                <a href="Admins.php"><i class="fas fa-user-plus"></i>  Add New Admin
+                </a>
              </div>
              <div>
-             	<a href="#"><i class="fas fa-check"></i> Approve Comments
-             	</a>
+                <a href="Comments.php"><i class="fas fa-check"></i> Approve Comments
+                </a>
              </div>
           </div>
        </header>
