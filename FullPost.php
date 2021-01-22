@@ -94,35 +94,29 @@
     <div class="post-container">
        <div class="grid-container">
      <div class="main-postcontent">
-  	 	 <?php
+  	 	 
+       <?php
+
   	 	 global $ConnectingDB;
-  	 	 if(isset($_GET["SearchButton"])){
-  	 	 	$Search = $_GET["Search"];
-             $sql = "SELECT * FROM posts WHERE datetime LIKE :search
-             OR title LIKE :search
-             OR category LIKE :search
-             OR post LIKE :search";
-             $stmt = $ConnectingDB->prepare($sql);
-             $stmt->bindValue(':search','%'.$Search.'%');
-             $stmt->execute();
-  	 	 }else
-  	 	 	{
-          $PostIdFromURL=$_GET["id"];
-          if(!isset($PostIdFromURL)){
+  
+        $PostIdFromURL=$_GET["id"];
+          if(!isset($PostIdFromURL))
+        {
             $_SESSION["ErrorMessage"] = "Bad Request !";
             Redirect_to("Blog.php");
-          }
+
+       }
   	 	 $sql = "SELECT * FROM posts WHERE id='$PostIdFromURL'";
   	 	 $stmt = $ConnectingDB->query($sql);
        $Result =$stmt->rowcount();
        if($Result!=1){
         $_SESSION["ErrorMessage"]="Bad Request";
-        Redirect_to("Blog.php?page=1");
+        Redirect_to("Blog.php");
        }
-  	 	}
+
   	 	// default sql query
   	 	 while($DataRows = $stmt->fetch()){
-  	 	 	        $PostId  =     $DataRows["id"];
+  	 	 	            $PostId  =     $DataRows["id"];
                     $DateTime =    $DataRows["datetime"];
                     $PostTitle =   $DataRows["title"];
                     $Category =    $DataRows["category"]; 
@@ -301,5 +295,5 @@ while($DataRows = $stmt->fetch()){
 
 
  <script src="publicnav.js"></script>
-</body>
+</body>g
 </html>

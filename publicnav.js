@@ -122,6 +122,7 @@ const appearOnScroll = new IntersectionObserver(
  var input = document.querySelectorAll(".animated-input");
    var text = document.querySelectorAll(".text");
     var line = document.querySelectorAll(".animated-line");
+    console.log(input)
 	for(let i=0;i<2;i++)
 	{
        input[i].addEventListener("focus",function(){
